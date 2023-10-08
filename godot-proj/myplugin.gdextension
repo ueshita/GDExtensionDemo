@@ -1,0 +1,7 @@
+[configuration]
+entry_symbol = "myplugin_library_init"
+compatibility_minimum = 4.1
+
+[libraries]
+windows.x86_64 = "bin/windows/libmyplugin.win64.dll"
+windows.x86_32 = "bin/windows/libmyplugin.win32.dll"
